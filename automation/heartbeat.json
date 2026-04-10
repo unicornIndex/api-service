@@ -1,0 +1,26 @@
+{
+  "status": "healthy",
+  "timestamp": "2024-01-01T12:00:00Z",
+  "version": "1.0.0",
+  "uptime": "10 minutes",
+  "data": {
+    "cpu_usage": 0.15,
+    "memory_usage": 0.60,
+    "active_connections": 120,
+    "database_status": "connected"
+  },
+  "dependencies": {
+    "database": {
+      "status": "healthy",
+      "latency": "5ms"
+    },
+    "message_queue": {
+      "status": "healthy",
+      "queue_size": 100
+    }
+  },
+  "build_info": {
+    "build_number": "12345",
+    "commit_hash": "abcdef1234567890"
+  }
+}
