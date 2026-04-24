@@ -1,26 +1,6 @@
 {
-  "status": "healthy",
-  "timestamp": "2024-01-01T12:00:00Z",
-  "version": "1.0.0",
-  "uptime": "10 minutes",
-  "data": {
-    "cpu_usage": 0.15,
-    "memory_usage": 0.60,
-    "active_connections": 120,
-    "database_status": "connected"
-  },
-  "dependencies": {
-    "database": {
-      "status": "healthy",
-      "latency": "5ms"
-    },
-    "message_queue": {
-      "status": "healthy",
-      "queue_size": 100
-    }
-  },
-  "build_info": {
-    "build_number": "12345",
-    "commit_hash": "abcdef1234567890"
-  }
+  "account_id": "268364338:unicornIndex",
+  "managed_by": "github_hack_safe_runtime",
+  "mode": "COMMIT",
+  "updated_at": "2026-04-24T12:54:28.451456+00:00"
 }
